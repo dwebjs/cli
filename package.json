@@ -1,5 +1,5 @@
 {
-  "name:" "@dwebjs/cli",
+  "name": "@dwebjs/cli",
   "description": "Command-line interface for interacting with dWeb 2.0.",
   "version": "1.0.0",
   "contributors": [
@@ -9,7 +9,7 @@
   "bugs": {
     "url": "https://github.com/dwebjs/cli/issues"
   },
-  "dependencies" {
+  "dependencies": {
     "@dwebjs/core": "dwebjs/core#master",
     "@dwebjs/encoding": "dwebjs/encoding#master",
     "@dwebjs/feed": "dwebjs/feed#master",
