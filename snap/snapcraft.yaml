@@ -1,0 +1,26 @@
+name: dweb
+version: '2.0.0'
+summary: Share & live sync files anywhere via command line
+description: |
+  Use DWeb command line to share files with version control, 
+  back up data to servers, browse remote files on demand, 
+  and automate long-term data preservation.
+
+grade: 'stable'
+confinement: 'strict'
+
+apps:
+  dweb: 
+    command: dweb
+    plugs:
+      - home
+      - network
+      - network-bind
+      - removable-media
+
+parts:
+  dweb:
+    source: https://github.com/dwebjs/cli.git
+    source-tag: 'v13.11.4'
+    plugin: nodejs
+    node-engine: 10.9.0

@@ -1,0 +1,12 @@
+node_modules
+.DS_Store
+tmp
+.idea
+data
+yarn.lock
+test/fixtures/.dweb
+test/fixtures/dweb.json
+test/**.db
+test/.datrc-test
+dist
+builds
