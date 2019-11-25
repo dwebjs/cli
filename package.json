@@ -17,6 +17,7 @@
         "@dwebjs/repository": "dwebjs/repository#master",
         "@dwebjs/resolve": "dwebjs/resolve#master",
         "@dwebjs/satoshi": "dwebjs/satoshi#master",
+        "@dwebjs/secret-storage": "dwebjs/secret-storage#master",
         "bytes": "^3.0.1",
         "chalk": "^2.4.2",
         "cli-truncate": "^1.0.0",
